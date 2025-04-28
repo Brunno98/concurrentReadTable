@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: concurrentReadTable
+  datasource:
+    url: jdbc:postgresql://localhost:5432/postgres
+    username: postgres
+    password: mypassword
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: validate  # ou 'validate' ou 'none', dependendo das suas necessidades
+    show-sql: true  # Se desejar ver as queries SQL no console
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
