@@ -35,7 +35,7 @@ mas é algo que não consegui confirmar com esse projeto.
 ### Passos para Execução
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/usuario/nome-do-repositorio.gitv
+   git clone https://github.com/Brunno98/concurrentReadTable.git
    ```
 2. Execute o comando `docker compose up -d` para buildar e subir a aplicação e o banco de dados.
 3. Use a ferramente de database workbench para executar os SQLs localizados na pasta `src/main/resources/db/migration` no banco de dados.
